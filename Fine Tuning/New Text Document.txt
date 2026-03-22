@@ -1,0 +1,10 @@
+Each tab = one cell (or group of cells) from the notebook. Here's the 30-second version:
+
+Overview — we're teaching BERT to detect if two sentences mean the same thing
+Step 1 — convert text → numbers (tokenize), set up smart padding
+Step 2 — configure training settings (epochs, batch size, etc.)
+Step 3 — download BERT and stick a 2-class output layer on top
+Step 4 — assemble model + data + settings into one Trainer object
+Step 5 — call .train() — this is where the actual learning happens
+Step 6 — manually check accuracy and F1 after training
+Step 7 — the improved version that auto-prints accuracy/F1 after every epoch
